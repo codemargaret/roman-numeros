@@ -1,4 +1,4 @@
-///BAck end
+///Back end
   // var romanConverter = [
   //   ["I",1],
   //   ["IV",4],
@@ -23,14 +23,14 @@
     ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
   ];
 
-function converter(userInput) {
-  var result = '';
-  if (userInput.length === 4) {
-    result += romanNumerals[0] [userInput[0]-1];
-    if (userInput[1] != '0') {
-      result += romanNumerals[1] [userInput[1]-1];
+  function converter(userInput) {
+    var result = '';
+    if (userInput.length === 4) {
+      result += romanNumerals[0] [userInput[0]-1];
+      if (userInput[1] != '0') {
+        result += romanNumerals[1] [userInput[1]-1];
+      }
     }
-  }
 
   //   if (parseInt(userInput) === 0) {
   //   return "We can't help you. There is no zero in Roman numerals.";
@@ -48,8 +48,6 @@ function converter(userInput) {
   //     return ones[i][0];
   //   }
   // };
-alert(result);
-};
 
 ///front end
 $(document).ready(function() {
@@ -57,7 +55,6 @@ $(document).ready(function() {
     event.preventDefault();
 
     var userInput = $("input#userInput").val();
-    // alert(userInput);
     var result = converter(userInput);
   });
 });
