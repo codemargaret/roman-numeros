@@ -48,4 +48,4 @@ _If you have any updates, questions, or suggestions please contact [Margaret] or
 ### License
 *This software is licensed under the MIT license.*
 
-Copyright (c) 201t **_Margaret Berry and Javier Jimenez_**
+Copyright (c) 2017 **_Margaret Berry and Javier Jimenez_**
