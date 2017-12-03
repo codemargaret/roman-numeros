@@ -5,7 +5,6 @@
 #### By _**Margaret Berry and Javier Jimenez**_
 
 ##Specs
-|Description | Input | Output |
 | Spec              | Input | Output |
 |-------------------|-------|--------|
 | Return I for 1    | 1     | I      |
