@@ -1,45 +1,52 @@
-# _{Application Name}_
+# _Roman Numerals_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A form to translate numbers into Roman numerals, 08.17.2017_
 
-#### By _**{List of contributors}**_
-
-## Description
-
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+#### By _**Margaret Berry and Javier Jimenez**_
 
 ##Specs
-
 |Description | Input | Output |
-|---|---|---|
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Spec              | Input | Output |
+|-------------------|-------|--------|
+| Return I for 1    | 1     | I      |
+| Return V for 5    | 5     | V      |
+| Return X for 10   | 10    | X      |
+| Return L for 50   | 50    | L      |
+| Return C for 100  | 100   | C      |
+| Return D for 500  | 500   | D      |
+| Return M for 1000 | 1000  | M      |
+| Return II for 2   | 2     | II     |
+| Return IV for 4   | 4     | IV     |
+| Return IX for 9   | 9     | IX     |
 
 ## Setup/Installation Requirements
+_Run the following commands in Terminal:_
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+1. `$ git clone` [this repository](https://github.com/codemargaret/roman-numeros.git)
+2. `$ cd roman-numeros`
+3. `$ open index.html`
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+## Project Goals
+_Get more comfortable writing JavaScript functions and account for challenging user input. Although we didn't complete our specs, we learned a lot._
 
 ## Known Bugs
+_This program is currently not functional._
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+## Future Features
+_Pass specs._
 
 ## Support and contact details
+_If you have any updates, questions, or suggestions please contact [Margaret] or make a contribution._
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+[Margaret]: mailto:codeberry1@gmail.com
 
 ## Technologies Used
-
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _HTML_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
 
 ### License
+*This software is licensed under the MIT license.*
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 201t **_Margaret Berry and Javier Jimenez_**
