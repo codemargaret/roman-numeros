@@ -4,7 +4,7 @@
 
 #### By _**Margaret Berry and Javier Jimenez**_
 
-##Specs
+## Specifications
 | Spec              | Input | Output |
 |-------------------|-------|--------|
 | Return I for 1    | 1     | I      |
